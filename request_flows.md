@@ -80,28 +80,7 @@ Nginx → Spring Gateway → Microservice
 
 ## Combined Architecture Diagram
 
-Angular SPA (Browser)
-      |
-      v
-+-----------------+
-|     Nginx       |
-| (Edge / Static) |
-+-----------------+
-      |
-      v
-+------------------------+
-| Spring Cloud Gateway   |
-| (Auth / Routing / CB)  |
-+------------------------+
-      |
-      v
-+------------+      +----------------+
-| Service A  | ---> | External API A |
-| Service B  | ---> | External API B |
-+------------+      +----------------+
-      |
-      v
-     DB
+<img width="541" height="637" alt="image" src="https://github.com/user-attachments/assets/9faea847-f5d2-4525-b392-62d39e5768fc" />
 
 ---
 
